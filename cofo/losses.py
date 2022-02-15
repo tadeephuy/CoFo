@@ -2,7 +2,7 @@ import torch
 from torch import nn
 import numpy as np
 import sys
-sys.path.append('/vinbrain/huyta/segmentation')
+sys.path.append('..')
 from TedSeg import dice_loss
 
 def mint_ent_loss(x):
