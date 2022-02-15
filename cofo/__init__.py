@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 import sys
-sys.path.append('/vinbrain/huyta/segmentation')
+sys.path.append('..')
 from TedSeg import *
 from .fda import create_fda_batch
 from .dataset import *

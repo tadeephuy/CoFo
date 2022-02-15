@@ -4,7 +4,7 @@ import numpy as np
 from torchvision.transforms import ToTensor
 from matplotlib import pyplot as plt
 import sys
-sys.path.append('/vinbrain/huyta/segmentation')
+sys.path.append('..')
 from TedSeg import SegmentationDataset
 
 
